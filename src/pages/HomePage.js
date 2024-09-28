@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../components/Navbar/Navbar";
 import HeroCarousel from "../components/HeroCarousel/HeroCarousel";
 import ProductCat from "../components/ProductCat/ProductCat";
+import Products from "../components/Products/Products";
 
 const HomePage = () => {
   const divStyle = {
@@ -16,6 +17,7 @@ const HomePage = () => {
       <div className="mx-24">
         <ProductCat />
       </div>
+      <Products />
     </div>
   );
 };

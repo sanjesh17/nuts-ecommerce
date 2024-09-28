@@ -5,7 +5,7 @@ const ProductCat = () => {
     <>
       <div className="p-12">
         <h1 className="mb-6 font-mont text-2xl font-extrabold">
-          Our Delicacies
+          Shop By Category
         </h1>
         <div className="flex justify-between">
           <img
